@@ -6,7 +6,7 @@
 /*   By: sreouven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/27 10:26:23 by sreouven          #+#    #+#             */
-/*   Updated: 2018/01/14 12:45:22 by sreouven         ###   ########.fr       */
+/*   Updated: 2018/01/14 16:25:36 by sreouven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,14 @@
 # include <stdlib.h>
 # include "libft.h"
 
-# define BUFF_SIZE 2
+# define BUFF_SIZE 9
 
 typedef struct		s_fd
 {
 	int				fd;
 	int				i;
 	int				ret;
-	char			str[BUFF_SIZE];
+	char			str[BUFF_SIZE + 1];
 	int				end;
 	struct s_fd		*prev;
 	struct s_fd		*next;
