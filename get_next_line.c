@@ -6,10 +6,12 @@
 /*   By: sreouven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/14 15:03:22 by sreouven          #+#    #+#             */
-/*   Updated: 2018/01/14 17:45:18 by sreouven         ###   ########.fr       */
+/*   Updated: 2018/01/14 18:04:50 by sreouven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+#include <stdlib.h>
 #include "get_next_line.h"
 
 static t_fd		*add_fd(t_fd *ptr, int fd)

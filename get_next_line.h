@@ -6,15 +6,13 @@
 /*   By: sreouven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/27 10:26:23 by sreouven          #+#    #+#             */
-/*   Updated: 2018/01/14 17:56:56 by sreouven         ###   ########.fr       */
+/*   Updated: 2018/01/14 18:05:06 by sreouven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# include <unistd.h>
-# include <stdlib.h>
 # include "libft.h"
 
 # define BUFF_SIZE 9
