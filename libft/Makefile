@@ -81,4 +81,6 @@ clean:
 fclean:clean
 	rm -rf $(NAME)
 
-re: fclean all
+re: fclean
+	make -j3
+	make clean
